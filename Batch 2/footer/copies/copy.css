@@ -1,0 +1,105 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.blue-heading {
+    font-size: 1.6rem;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #43f9ac;
+    text-transform: uppercase;
+}
+
+h3.blue-heading {
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #6130f2;
+    padding: 6% 12%;
+}
+
+/* upper footer styling */
+.upper-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.social-media i {
+    font-size: 1.2rem;
+    margin: 1vw;
+    background-color: rgb(226,223,223);
+    color: #6130f2;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+i.fa-facebook {
+    padding-left: 11px;
+    padding-right: 12px;
+}
+
+.social-media i:hover {
+    background-color: rgba(226, 223, 223, 0.8);
+    transition: all 0.5s 0s;
+}
+
+/* inner footer styling */
+.inner-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav-section h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin:25px 0;
+}
+
+.email-list h3 {
+    margin-bottom: 10px;
+}
+
+.footer-nav-section li {
+    margin: 10px 0;
+}
+
+.email-list {
+    display:flex;
+    flex-direction: column;
+}
+
+.email-list input[type=text] {
+    padding: 10px;
+    padding-right: 60px;
+    margin-bottom: 12px;
+    border:none;
+    color:black;
+}
+
+.email-list input[type=button] {
+    border:none;
+    padding: 20px;
+    background-color: #18315e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor:pointer;
+}
+
+.email-list input[type=button]:hover {
+    background-color: rgba(22,47,92,0.8);
+    transition: all 0.5s 0s;
+}
+
+@media screen and (max-width: 750px) {
+    .inner-footer, .upper-footer {
+        display:block;
+        text-align: center;
+    }
+
+}

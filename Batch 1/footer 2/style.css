@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body, a, i {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 1.25rem;
+    margin-bottom: 16px;
+}
+
+li, p, a {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+}
+
+.inner-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: white 0.5px solid;
+    padding: 4rem 0rem 3rem 0rem;
+    margin: 0 150px;
+}
+
+.bottom-footer {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    padding: 4rem 0rem 3rem 0rem;
+    margin: 0 150px;
+}
+
+.email-list, .region-select, .social-media {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-footer p {
+    margin: 0 3% 0 3%;
+}
+
+/* email list input and region select styling */
+.email-list input, .email-list button, .region-select select {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.email-list button {
+    background-color: black;
+    float: right;
+    cursor: pointer;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.region-select select {
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+}
+
+.social-media i {
+    font-size: 1.4rem;
+    margin: 0 5px 0 5px;
+}
+
+.copyright, .copyright a {
+    text-align: center;
+    padding: 2rem 0rem 2rem 0rem;
+    color: #888;
+}
+
+@media screen and (max-width: 750px) {
+    .inner-footer, .bottom-footer {
+        display: block;
+        padding: 1rem 0rem;
+        text-align: center;
+    }
+
+    h1 {
+        margin: 20px 0;
+    }
+
+    .email-list, .region-select, .social-media {
+        display: inline-block;
+    }
+
+    .email-list input, .email-list button, .region-select select {
+        margin: 15px 0px;
+    }
+}

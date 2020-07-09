@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contact-container">
+        <h2>Contact us now!</h2>
+        <p>You can contact us using the contact form below</p>
+        <div class="contact-form">
+            <form action="#">
+                <input type="text" id="fname" name="firstname" placeholder="Your Name*" required>
+                <input type="text" id="email" name="user-email" placeholder="Your Email*" required>
+                <input type="number" id="phone" name="phonenumber" placeholder="Phone*" required>
+                <!-- Drop down menu -->
+                <select name="support" id="support">
+                    <option value="0">Support</option>
+                    <option value="0">Acess</option>
+                    <option value="0">Service</option>
+                </select>
+                <!-- human verification -->
+                <input type="text" id="verification" name="verification" placeholder="Anti-spam* : 4+3=?" required>
+                <textarea name="comments" id="user-comments" cols="40" rows="11" maxlength="300" placeholder="Your comment here"></textarea>
+                <!-- submit button -->
+            <div class="form-button">
+                <input type="button" value="Send message">
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

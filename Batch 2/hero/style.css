@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(245, 244, 244);
+}
+
+.hero-text h3 {
+    font-size: 1.2rem;
+}
+
+.hero-text h1 {
+    font-size: 1.8rem;
+    margin: 20px 0;
+}
+
+.hero-text button {
+    border: none;
+    background-color: rgb(155, 56, 56);
+    padding: 10px 15px;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(117, 39, 39);
+}
+
+.hero-text button:hover {
+    background-color: rgba(155, 56, 56,0.8);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.hero-text {
+    text-align: center;
+    text-shadow: 2px 3px 4px rgb(108, 112, 44);
+}
+
+@media screen and (min-width: 650px) {
+    .hero-text {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(20, 20, 20, 0.3), rgba(22, 21, 21, 0.3)), url(jojo-stardust-crusaders.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 15%;
+}

@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.hero-image {
+    background-color: rgb(24, 22, 22);
+    padding: 6% 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.7rem;
+    margin-bottom: 7%;
+    line-height: 55px;
+}
+
+.hero-text p {
+    margin-bottom: 8%;
+    line-height: 30px;
+}
+
+.hero-text span {
+    font-weight: 650;
+}
+
+.hero-image img {
+    box-shadow: 12px -10px 0px rgb(75, 67, 67);
+}
+
+.hero-text {
+    width: 400px;
+}
+
+.hero-text button {
+    padding: 2.5%;
+    border: 1px whitesmoke solid;
+    font-size: 14px;
+    font-weight: 600;
+    cursor:pointer;
+}
+
+button#button-1 {
+    color:black;
+    margin: 0 10px 10px 0;
+}
+
+button#button-1:hover {
+    background-color: rgba(245,245,245, 0.8);
+    transition: all 0.5s ease 0s;
+}
+
+button#button-2 {
+    background-color: rgb(24, 22, 22);
+}
+
+button#button-2:hover {
+    background-color: rgba(41, 39, 39, 0.8);
+    transition: all 0.5s ease 0s;
+}
+
+@media screen and (max-width:650px) {
+    .hero-image {
+        display:block;
+        text-align: center;
+    }
+    .hero-image img {
+        margin: 5vw;
+    }
+}
