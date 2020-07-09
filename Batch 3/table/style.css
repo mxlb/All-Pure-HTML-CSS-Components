@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:whitesmoke;
+    font-weight: 400;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: linear-gradient(to bottom right, #4f03fe, #9d2ae9);
+}
+
+table tr:nth-of-type(1) {
+    background: linear-gradient(to bottom right, #9d2ae9, #b169f1);
+    text-transform: uppercase;
+}
+
+td, th {
+    padding: 20px;
+    text-align: left;
+}
+td:hover {
+    background: linear-gradient(to bottom right, #703bec, #b055ec);
+}
+
+

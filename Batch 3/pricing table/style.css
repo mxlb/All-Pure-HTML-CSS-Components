@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+}
+.pricing-table {
+    margin: 10px;
+    box-shadow: 0px 0px 20px rgb(189, 187, 187);
+    padding: 25px 0;
+    width: 300px;
+    text-align: center;
+}
+.pricing-table-1 {
+    border-top: 2px solid rgb(56, 199, 56);
+    border-bottom: 2px solid rgb(56, 199, 56);
+}
+.pricing-table h1 {
+    color: rgb(56, 199, 56);
+    font-size: 1.6rem;
+    padding: 10px 0 25px 0;
+}
+.pricing-table .price {
+    background-color: rgb(56, 199, 56);
+}
+.pricing-table button {
+    padding: 10px 15px;
+    background: none;
+    border: 2px solid rgb(56, 199, 56);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.pricing-table-1 button {
+    color:rgb(56, 199, 56);
+}
+.pricing-table button:hover {
+    background-color: rgb(238, 237, 237);
+    transition: all 0.5s ease 0s;
+}
+
+
+.pricing-table-2 {
+    border-top: 2px solid rgb(111, 43, 143);
+    border-bottom: 2px solid rgb(111, 43, 143);
+}
+.pricing-table-2 h1, .pricing-table-2 button {
+    color: rgb(111, 43, 143);
+}
+.pricing-table-2 .price {
+    background-color: rgb(111, 43, 143);
+}
+.pricing-table-2 button {
+    border: 2px solid rgb(111, 43, 143);
+}
+
+
+.pricing-table-3 {
+    border-top: 2px solid rgb(28, 100, 182);
+    border-bottom: 2px solid rgb(28, 100, 182);
+}
+.pricing-table-3 h1, .pricing-table-3 button {
+    color: rgb(28, 100, 182);
+}
+.pricing-table-3 .price {
+    background-color: rgb(28, 100, 182);
+}
+.pricing-table-3 button {
+    border: 2px solid rgb(28, 100, 182);
+}
+.price h1 {
+    color:white;
+    padding: 10px;
+}
+
+table {
+    width:100%;
+    margin-bottom: 25px;
+}
+table td {
+    padding: 8px;
+    color: rgb(163, 162, 162);
+}
+table tr:nth-child(even) {
+    background-color: rgb(240, 239, 239);
+}
+
+@media screen and (max-width: 680px) {
+    .pricing-container {
+        display: block;
+    }
+    .pricing-table {
+        margin: 20px auto;
+    }
+}
